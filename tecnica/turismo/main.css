@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#imagen-principal{
+    background-image: url("cancun.jpg");
+
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  
+.overlay{
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: #2c35418c;
+}
+
+
+
+nav.nav-principal {
+    background-color: rgba(0,0,0,0.2);
+   
+	justify-content: center;
+	
+	
+}
+
+nav.nav-principal a.nav-link {
+    font-size: 1.5em;
+    color: #ff8e1c;
+}
+
+nav.nav-principal a.nav-link:hover{
+    color: white;
+}
+
+nav.nav-principal div div ul {
+	flex: 1;
+	justify-content: space-around;
+}
+
+.navbar-toggler{
+    color:white;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+#resumen{
+    background-color: #79b08c;
+}
+
+#servicios{
+    background-color:#ebbf7f
+}
+
+#contacto{
+    background-color:#fae2c0;
+        }
+
+
+#icono-f{
+    color:#3b5998;
+}
+
+#icono-t{
+    color: #00acee;
+}
+
+#icono-w{
+    color: #4ac959;;
+}
+
+#icono-i{
+    color: #e1306c;
+}
