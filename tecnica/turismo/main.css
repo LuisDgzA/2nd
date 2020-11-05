@@ -90,3 +90,16 @@ nav.nav-principal div div ul {
 #icono-i{
     color: #e1306c;
 }
+
+
+@media only screen and (max-width: 550px){
+    .icono-red{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 551px){
+    .icono-red{
+        display:block;
+    }
+}
